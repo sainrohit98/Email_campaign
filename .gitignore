@@ -1,0 +1,9 @@
+.DS_Store
+*.rest
+.vscode/* 
+__pycache__/
+*.py[cod]
+*.env
+db.sqlite3
+celerybeat-schedule.* 
+Pipfile.lock

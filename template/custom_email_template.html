@@ -1,0 +1,10 @@
+<!-- campaign_email_template.html -->
+<html>
+<body>
+    <h1>{{ campaign.subject }}</h1>
+    <p>{{ campaign.preview_text }}</p>
+    <p>Read the full article <a href="{{ campaign.article_url }}">here</a>.</p>
+    <p>{{ campaign.html_content }}</p>
+    <p>Published on: {{ campaign.published_date }}</p>
+</body>
+</html>
